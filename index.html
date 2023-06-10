@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9db5628076.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Youtube Music Clone</title>
+</head>
+
+<body id="home">
+    <!-- Main-Navbar -->
+    <header class="header">
+        <div class="navbar">
+            <div class="flex-container">
+                <div class="logo">
+                    <img src="images/YT logo 2.jpg" alt="">
+                    <p>Music</p>
+                </div>
+                <div class="primary-nav">
+                    <ul>
+                        <li id="home">Home</li>
+                        <li class="fade" id="explore">Explore</li>
+                        <li class="fade" id="library">Library</li>
+                        <li class="fade" id="upgrade">Upgrade</li>
+                        <li class="fade" id="search"><i class="fa-solid fa-magnifying-glass  search"></i><span
+                                class="last-child"> Search</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="profile cast">
+                    <i class="fab fa-chromecast fa-xl"></i>
+                    <img src="images/joker.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Secondary-Navbar -->
+        <div class="secodary-nav">
+            <div class="container">
+                <div class="buttons">
+                    <ul>
+                        <li>Relax</li>
+                        <li>Energize</li>
+                        <li>Workout</li>
+                        <li>Commute</li>
+                        <li>Focus</li>
+                    </ul>
+                </div>
+
+                <div class="main-profile">
+                    <div class="profile-avi">
+                        <img src="images/joker.jpg" alt="">
+                        <div class="profile-text">
+                            <p class="name fade">PHEMY M</p>
+                            <p class="action">Listen again</p>
+                        </div>
+
+                    </div>
+
+                    <div class="more">
+                        <p class="hover text">More</p>
+                        <i class="fa-regular fa-less-than"></i>
+                        <i class="fa-solid fa-greater-than hover"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Album-Covers -->
+        <div class="container-scroll">
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/mil.jpg" alt="MIL-Wizkid">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">Made In Lagos: Deluxe Edition</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Wizkid</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/gangster_cover.jpeg" alt="GANGSTER-lojay">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">GANGSTER ROMANTIC</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Lojay</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/mlle.jpg" alt="MLLE-Wizkid">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">More Love Less Ego</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Wizkid</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/timeless.jpg" alt="Timeless-Davido">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">Timeless</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Davido</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/Ayo_cover.jpg" alt="Ayo-Wizkid">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">Ayo</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Wizkid</span></p>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!--Quick-Picks  -->
+    <section class="quick-section">
+        <div class="quick-picks">
+            <div class="container" id="quick-picks">
+                <div class="paragraphs">
+                    <p class="name fade">START RADIO FROM A SONG</p>
+                    <p class="bold">Quick Picks</p>
+                </div>
+                <div class="quick-icons">
+                    <i class="fa-regular fa-less-than"></i>
+                    <i class="fa-solid fa-greater-than hover"></i>
+                </div>
+            </div>
+            <div class="container" id="quick-covers">
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/gangster_cover.jpeg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">OVA</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade"><span class="text-underline"> Lojay </span>&#x2022; <span
+                                    class="text-underline fade">GANGSTER
+                                    ROMANTIC</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/madeinlagos-1.jpeg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Reckless</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Wizkid &#x2022; <span class="text-underline fade">Made In Lagos</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/pray.jpg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Pray</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">BNXN fka Buju &#x2022; <span class="text-underline fade">Pray</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="quick-covers">
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/Legend-Or-No-Legend-IMG.jpeg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Ebelebe(feat. Wizkid)</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Wande Coal &#x2022; <span class="text-underline fade">Legend Or No
+                                    Legend</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/Many-Things.jpg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Many Things</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Zinoleesky &#x2022; <span class="text-underline fade">Many Things</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/signs.jpeg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Fences</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Runtown &#x2022; <span class="text-underline fade">Signs</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="quick-covers">
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/Boy-Alonejpg.jpg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Soso</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Omah Lay &#x2022; <span class="text-underline fade">Boy Alone</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/Sorry-I-Am-Late.jpeg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">I Do</p>
+                        <div class="quick-flex">
+                            <span class="material-icons fade" style="font-size: 18px;"
+                                style="width: 25px;">explicit</span>
+                            <p class="fade" style="width: 200px;">BNXN &#x2022; <span class="text-underline fade">Sorry
+                                    I'm Late</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/more love.jpg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Everyday</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Wizkid &#x2022; <span class="text-underline fade">More Love Less Ego</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="quick-covers">
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/for broken ears.jpeg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Free Mind</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Tems &#x2022; <span class="text-underline fade">For Broken Ears</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/mr moneyjpg.jpg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Ototo</p>
+                        <div class="quick-flex">
+                            <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                            <p class="fade">Asake &#x2022; <span class="text-underline fade">Mr. Money With
+                                    The Vibe</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quick-pick-covers">
+                    <div class="quick-position">
+                        <img src="images/indigo.jpeg" alt="">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <div class="mini-covers">
+                        <p class="quick-text">Under The Influence</p>
+                        <div class="quick-flex">
+                            <span class="material-icons fade" style="font-size: 18px;"
+                                style="width: 25px;">explicit</span>
+                            <p class="fade" style="width: 200px;">Chris Brown &#x2022; <span
+                                    class="text-underline fade">Indigo(Extended)</span>
+                            </p>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_down_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">thumb_up_off_alt</span>
+                            <span class="material-icons thumbs" style="font-size: 23px;">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    <!-- Recommended Videos -->
+    <section class="recommended-videos">
+        <div class="container" id="quick-picks">
+            <div class="paragraph">
+                <p class="bold">Recommended music videos</p>
+            </div>
+            <div class="quick-icons">
+                <i class="fa-regular fa-less-than rcv"></i>
+                <i class="fa-solid fa-greater-than hover rcv"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="rec-flex">
+                <div class="recommended">
+                    <div class="rec-position">
+                        <img src="images/pray-video1.jpg" alt="MIL-Wizkid">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <p class="normal">Pray</p>
+                    <p class="fade"><span class="text-underline"> BNXN </span>&#x2022; 3M views</p>
+                </div>
+                <div class="recommended">
+                    <div class="rec-position">
+                        <img src="images/bad to me vid.jpg" alt="MIL-Wizkid">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <p class="normal">Bad To Me</p>
+                    <p class="fade"><span class="text-underline"> Wizkid </span>&#x2022; 9M views</p>
+                </div>
+                <div class="recommended">
+                    <div class="rec-position">
+                        <img src="images/safehaven-vid.jpg" alt="MIL-Wizkid">
+                        <i class="fa-sharp fa-solid fa-play"></i>
+                    </div>
+                    <p class="normal">safe haven</p>
+                    <p class="fade"><span class="text-underline"> Omah Lay </span>&#x2022; 1.1M views</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forgotten Favorites -->
+    <section class="forgotten-favourites">
+        <div class="container" id="quick-picks">
+            <div class="paragraph">
+                <p class="bold">Forgotten favourites</p>
+            </div>
+            <div class="quick-icons">
+                <i class="fa-regular fa-less-than rcv"></i>
+                <i class="fa-solid fa-greater-than hover rcv"></i>
+            </div>
+        </div>
+        <div class="container-scroll">
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/asa-beautiful.jpeg" alt="MIL-Wizkid">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">Beautiful Imperfection</p>
+                <div class="album-flex">
+                    <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                    <p class="fade">Album &#x2022; <span class="text-underline">Asa</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/twice-as-tall.jpeg" alt="GANGSTER-lojay">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">Twice As Tall</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Burna Boy</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/Get-Layd.jpg" alt="MLLE-Wizkid">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">Get Layd</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Omah Lay</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/roots.jpg" alt="Timeless-Davido">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">ROOTS</p>
+                <div class="album-flex">
+                    <!-- <span class="material-icons fade" style="font-size: 18px;">explicit</span> -->
+                    <p class="fade">Album &#x2022; <span class="text-underline">The Cavemen</span></p>
+                </div>
+            </div>
+            <div class="album-covers">
+                <div class="position">
+                    <img src="images/soundman.jpg" alt="Ayo-Wizkid">
+                    <i class="fa-sharp fa-solid fa-play"></i>
+                </div>
+                <p class="text-underline">SoundMan vol.1</p>
+                <div class="album-flex">
+                    <span class="material-icons fade" style="font-size: 18px;">explicit</span>
+                    <p class="fade">Album &#x2022; <span class="text-underline">Wizkid</span></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+</body>
